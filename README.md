@@ -92,3 +92,78 @@ Raw GA4 Event Data
 Looker Studio Dashboard
         ↓
 Insights & Recommendations
+---
+```
+
+# 📊 Dashboard
+
+The final dashboard consists of four analytical tabs.
+
+### 1️⃣ Executive Overview
+- **Question:** How is the business performing overall?
+- **Metrics:** Sessions, Revenue, Purchases, Purchase Rate, AOV, Revenue Trend, E-commerce Funnel.
+
+### 2️⃣ Acquisition & Revenue Drivers
+- **Question:** Which channels and factors drive traffic, conversion, and revenue?
+- **Metrics:** Source / Medium, Sessions, Purchases, Conversion Rate, Revenue, Revenue per Session, Checkout Funnel by Device.
+
+### 3️⃣ User Behavior & Audience
+- **Question:** Who are the users and how do they interact with the website?
+- **Metrics:** Active Users, Total Events, Device, Country, OS / Browser, Top Events, Top Pages.
+
+### 4️⃣ Product & Conversion Insights
+- **Question:** Which products perform best and where does conversion drop off?
+- **Metrics:** Product Revenue, Product Views, Add-to-Carts, Checkouts, Purchases, Product Funnel.
+
+---
+
+# 💡 Key Insights & Recommendations
+
+Based on the dashboard findings, the analysis focuses on identifying opportunities to:
+
+- Optimize high-traffic but low-converting channels, pages, or products.
+- Prioritize acquisition channels with stronger conversion and revenue performance.
+- Identify major drop-off points in the e-commerce funnel.
+- Improve products with high user interest but weak purchase conversion.
+
+*Note: Insights and recommendations are based on the final dashboard analysis and should be interpreted within the context of the selected GA4 sample dataset.*
+
+---
+
+# 🛠️ Tools & Skills
+
+- **Tools:** BigQuery · SQL · Looker Studio · GitHub
+- **Skills:**
+  - SQL & Data Exploration
+  - Nested & Repeated Data (`UNNEST`)
+  - CTEs & Window Functions
+  - Funnel Analysis
+  - E-commerce Analytics
+  - Data Modeling & Fact Table Design
+  - Dashboard Development
+  - Business Insight Generation
+
+---
+
+# 📁 Project Structure
+
+```text
+ga4-ecommerce-analytics/
+│
+├── README.md
+├── sql/
+│   ├── explore/
+│   │   ├── 01_overview_metrics.md
+│   │   ├── ...
+│   │   └── 10_checkout_funnel_device.md
+│   │
+│   └── fact_table/
+│       ├── fact_session.md
+│       ├── fact_user_behavior.md
+│       └── fact_product.md
+│
+├── dashboard/
+│   ├── executive_overview.png
+│   ├── acquisition_revenue.png
+│   ├── user_behavior.png
+│   └── product_conversion.png
