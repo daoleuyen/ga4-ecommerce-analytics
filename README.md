@@ -95,38 +95,67 @@ Insights & Recommendations
 ---
 ```
 
+---
+
 # 📊 Dashboard
 
-The final dashboard consists of four analytical tabs.
+The final dashboard consists of four analytical tabs, providing a comprehensive view of business performance, user acquisition, behavior, and product trends.
 
 ### 1️⃣ Executive Overview
-- **Question:** How is the business performing overall?
-- **Metrics:** Sessions, Revenue, Purchases, Purchase Rate, AOV, Revenue Trend, E-commerce Funnel.
+- **Objective:** Evaluate the overall health of the e-commerce business.
+  <img width="900" height="677" alt="image" src="https://github.com/user-attachments/assets/0014c9ee-b91b-4060-9948-9a4d6a651029" />
+- **Data Insights:**
+  - **Revenue Volatility:** A sharp revenue peak was observed in late November to early December, followed by a severe 3x plummet in January ($160.6K down to $57.4K).
+  - **Severe Funnel Leakage:** The overall purchase rate sits critically low at ~1.3%. The most significant drop-off occurs at the very beginning of the journey: **79% of sessions end before a single product is viewed**, and only 4% of total sessions result in an "Add to Cart" action.
 
 ### 2️⃣ Acquisition & Revenue Drivers
-- **Question:** Which channels and factors drive traffic, conversion, and revenue?
-- **Metrics:** Source / Medium, Sessions, Purchases, Conversion Rate, Revenue, Revenue per Session, Checkout Funnel by Device.
+- **Objective:** Identify which channels and traffic sources bring the most valuable users.
+<img width="899" height="672" alt="image" src="https://github.com/user-attachments/assets/8775ddcc-968e-44e2-a5a1-6492388a7c81" />
+
+- **Data Insights:**
+  - **Volume vs. Value:** `google` (organic) dominates traffic volume with over 112K sessions, making up ~28.9% of total revenue. However, it converts at a lower rate (1.09%).
+  - **High-Intent Channels:** `(direct)` and referral traffic (e.g., `shop.googlemerchandisestore...`) rival Google in driving successful conversions, boasting higher conversion rates of 1.29% and 2.03% respectively. 
 
 ### 3️⃣ User Behavior & Audience
-- **Question:** Who are the users and how do they interact with the website?
-- **Metrics:** Active Users, Total Events, Device, Country, OS / Browser, Top Events, Top Pages.
+- **Objective:** Understand demographic profiles and platform preferences.
+<img width="893" height="662" alt="image" src="https://github.com/user-attachments/assets/6c14aec6-1a4b-4787-ae56-95da994bc0e0" />
+
+- **Data Insights:**
+  - **Demographics:** The United States is overwhelmingly the primary source of active users (118.4K).
+  - **Tech Stack Preference:** `desktop` captures the majority of the audience (57.9%), followed by `mobile` (39.8%). Web/Chrome is the dominant platform/browser combination, far exceeding iOS/Safari.
+  - **Engagement:** While `page_view` volume is massive (1.4M), actual `view_item` events are significantly lower (386K), reinforcing the bottleneck found in the Executive Overview.
 
 ### 4️⃣ Product & Conversion Insights
-- **Question:** Which products perform best and where does conversion drop off?
-- **Metrics:** Product Revenue, Product Views, Add-to-Carts, Checkouts, Purchases, Product Funnel.
+- **Objective:** Analyze catalog performance and pinpoint where product interest fails to translate into sales.
+<img width="894" height="679" alt="image" src="https://github.com/user-attachments/assets/b9419c0e-fcf4-4dd2-8aeb-e49057f50397" />
+
+- **Data Insights:**
+  - **Category Monopoly:** The "Apparel" category significantly outperforms all others, generating $171.7K (nearly 50% of the total product revenue), dwarfing the next best categories ("New" and "Bags").
+  - **Visibility vs. Purchase Mismatch:** High product visibility does not consistently guarantee purchases. The scatter plot and bar charts reveal that several highly-viewed items yield almost zero purchases, resulting in a staggering 99.42% product-level drop-off rate.
 
 ---
 
 # 💡 Key Insights & Recommendations
 
-Based on the dashboard findings, the analysis focuses on identifying opportunities to:
+Based on the dashboard findings, the business exhibits strong top-of-funnel traffic but struggles with severe friction in product discovery and checkout conversion. 
 
-- Optimize high-traffic but low-converting channels, pages, or products.
-- Prioritize acquisition channels with stronger conversion and revenue performance.
-- Identify major drop-off points in the e-commerce funnel.
-- Improve products with high user interest but weak purchase conversion.
+**1. Fix the Top-of-Funnel Bottleneck (The 79% Drop-off)**
+- **Insight:** Nearly 8 out of 10 users leave the site without viewing a single product. 
+- **Recommendation:** Revamp the homepage and landing page UX. Implement clearer calls-to-action (CTAs), personalized product recommendations above the fold, and simplify site navigation to guide users directly to product catalog pages.
 
-*Note: Insights and recommendations are based on the final dashboard analysis and should be interpreted within the context of the selected GA4 sample dataset.*
+**2. Shift Focus from Traffic Volume to Traffic Quality**
+- **Insight:** Google Organic brings the most users, but Direct and Referral channels bring the most *buyers*.
+- **Recommendation:** Reallocate a portion of the marketing budget towards nurturing high-intent audiences. Implement email retention campaigns for Direct users and strengthen affiliate/referral partnerships. For Google Organic, audit the SEO strategy to ensure keywords are attracting purchase-intent users rather than informational browsers.
+
+**3. Address the Mobile Experience**
+- **Insight:** Desktop traffic dominates at 58%. In modern e-commerce, mobile usually leads. A lower mobile share paired with low overall conversion suggests a clunky mobile experience.
+- **Recommendation:** Conduct a rigorous technical and UX audit specifically for mobile devices (iOS/Safari and Android). Ensure the "Add to Cart" and checkout flows are frictionless on smaller screens.
+
+**4. Capitalize on "Apparel" and Audit High-Visibility Losers**
+- **Insight:** Apparel is the undeniable cash cow, yet overall product drop-off is 99.42% due to items that get viewed but never bought.
+- **Recommendation:** 
+  - **Exploit:** Prominently feature the best-selling Apparel items on high-traffic landing pages to capitalize on proven demand.
+  - **Explore:** Investigate the high-view/zero-purchase products. Audit their pricing, sizing availability, product imagery, and reviews to identify why users are losing interest after clicking.
 
 ---
 
