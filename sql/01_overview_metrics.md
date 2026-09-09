@@ -57,6 +57,6 @@ SELECT
 FROM raw_data1
 ORDER BY 1
 LIMIT 5;
+```
 * Query results
 <img width="633" height="124" alt="query1" src="https://github.com/user-attachments/assets/b43dcb47-a162-4f84-8813-2c7c835ff8f4" />
-
