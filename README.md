@@ -191,8 +191,4 @@ ga4-ecommerce-analytics/
 │       ├── fact_user_behavior.md
 │       └── fact_product.md
 │
-├── dashboard/
-│   ├── executive_overview.png
-│   ├── acquisition_revenue.png
-│   ├── user_behavior.png
-│   └── product_conversion.png
+├── dashboard.pdf
