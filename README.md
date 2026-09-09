@@ -101,6 +101,8 @@ Insights & Recommendations
 
 The final dashboard consists of four analytical tabs, providing a comprehensive view of business performance, user acquisition, behavior, and product trends.
 
+[![View Dashboard](https://img.shields.io/badge/View_Dashboard-Looker_Studio-blue?style=for-the-badge&logo=looker)](https://datastudio.google.com/reporting/df6d3336-3e9c-4392-8a82-1099671e074d)
+
 ### 1️⃣ Executive Overview
 - **Objective:** Evaluate the overall health of the e-commerce business.
   <img width="900" height="677" alt="image" src="https://github.com/user-attachments/assets/0014c9ee-b91b-4060-9948-9a4d6a651029" />
